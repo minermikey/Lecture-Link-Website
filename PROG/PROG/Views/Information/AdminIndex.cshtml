@@ -1,0 +1,67 @@
+﻿@model IEnumerable<PROG.Models.Information>
+
+@{
+    ViewData["Title"] = "Information List";
+}
+
+<h2>Information List</h2>
+
+<table class="table table-bordered table-striped">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Lecturer ID</th>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Hours Worked</th>
+            <th>Claims Period Start</th>
+            <th>Claims Period End</th>
+            <th>Rate Per Hour</th>
+            <th>Total Amount</th>
+            <th>Description Of Work</th>
+            <th>File</th>
+            <th>Payment Status</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.ID</td>
+                <td>@item.LecturerID</td>
+                <td>@item.Firstname</td>
+                <td>@item.Lastname</td>
+                <td>@item.HouresWorked</td>
+                <td>@item.Claimsperiodstart.ToString("yyyy-MM-dd")</td>
+                <td>@item.Claimsperiodend.ToString("yyyy-MM-dd")</td>
+                <td>@item.RatePerHour</td>
+                <td>@item.TotalAmount</td>
+                <td>@item.DiscriptionOfWork</td>
+                <td>
+                    @if (!string.IsNullOrEmpty(item.FileName))
+                    {
+                        <a href="@Url.Content($"~/uploads/{item.FileName}")" target="_blank">@item.FileName</a>
+                    }
+                    else
+                    {
+                        <a No file> </a>
+                    }
+                </td>
+                <td>@item.PaymentStatus</td>
+                <td>
+                    <form asp-action="ConfirmPayment" method="post">
+                        <input type="hidden" name="id" value="@item.ID" />
+                        <button type="submit" class="btn btn-success">Confirm</button>
+                    </form>
+                    <form asp-action="DenyPayment" method="post">
+                        <input type="hidden" name="id" value="@item.ID" />
+                        <button type="submit" class="btn btn-danger">Deny</button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<a asp-action="Create" class="btn btn-primary">Create New</a>

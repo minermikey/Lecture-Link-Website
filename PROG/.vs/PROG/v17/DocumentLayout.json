@@ -1,0 +1,238 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Michael Singh\\Desktop\\PROG\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6468CBA4-21E4-47BB-80FC-A552078343F5}|PROG\\PROG.csproj|c:\\users\\michael singh\\desktop\\prog\\prog\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6468CBA4-21E4-47BB-80FC-A552078343F5}|PROG\\PROG.csproj|solutionrelative:prog\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6468CBA4-21E4-47BB-80FC-A552078343F5}|PROG\\PROG.csproj|c:\\users\\michael singh\\desktop\\prog\\prog\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6468CBA4-21E4-47BB-80FC-A552078343F5}|PROG\\PROG.csproj|solutionrelative:prog\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6468CBA4-21E4-47BB-80FC-A552078343F5}|PROG\\PROG.csproj|c:\\users\\michael singh\\desktop\\prog\\prog\\views\\information\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6468CBA4-21E4-47BB-80FC-A552078343F5}|PROG\\PROG.csproj|solutionrelative:prog\\views\\information\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6468CBA4-21E4-47BB-80FC-A552078343F5}|PROG\\PROG.csproj|c:\\users\\michael singh\\desktop\\prog\\prog\\controllers\\informationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6468CBA4-21E4-47BB-80FC-A552078343F5}|PROG\\PROG.csproj|solutionrelative:prog\\controllers\\informationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6468CBA4-21E4-47BB-80FC-A552078343F5}|PROG\\PROG.csproj|c:\\users\\michael singh\\desktop\\prog\\prog\\views\\information\\adminindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6468CBA4-21E4-47BB-80FC-A552078343F5}|PROG\\PROG.csproj|solutionrelative:prog\\views\\information\\adminindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6468CBA4-21E4-47BB-80FC-A552078343F5}|PROG\\PROG.csproj|c:\\users\\michael singh\\desktop\\prog\\prog\\data\\migrations\\20240819143305_please.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6468CBA4-21E4-47BB-80FC-A552078343F5}|PROG\\PROG.csproj|solutionrelative:prog\\data\\migrations\\20240819143305_please.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6468CBA4-21E4-47BB-80FC-A552078343F5}|PROG\\PROG.csproj|c:\\users\\michael singh\\desktop\\prog\\prog\\views\\information\\searchbylecturerid.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6468CBA4-21E4-47BB-80FC-A552078343F5}|PROG\\PROG.csproj|solutionrelative:prog\\views\\information\\searchbylecturerid.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6468CBA4-21E4-47BB-80FC-A552078343F5}|PROG\\PROG.csproj|c:\\users\\michael singh\\desktop\\prog\\prog\\models\\information.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6468CBA4-21E4-47BB-80FC-A552078343F5}|PROG\\PROG.csproj|solutionrelative:prog\\models\\information.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6468CBA4-21E4-47BB-80FC-A552078343F5}|PROG\\PROG.csproj|c:\\users\\michael singh\\desktop\\prog\\prog\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6468CBA4-21E4-47BB-80FC-A552078343F5}|PROG\\PROG.csproj|solutionrelative:prog\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6468CBA4-21E4-47BB-80FC-A552078343F5}|PROG\\PROG.csproj|c:\\users\\michael singh\\desktop\\prog\\prog\\data\\migrations\\20240819111432_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6468CBA4-21E4-47BB-80FC-A552078343F5}|PROG\\PROG.csproj|solutionrelative:prog\\data\\migrations\\20240819111432_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6468CBA4-21E4-47BB-80FC-A552078343F5}|PROG\\PROG.csproj|c:\\users\\michael singh\\desktop\\prog\\prog\\data\\migrations\\20240821192019_wrplese.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6468CBA4-21E4-47BB-80FC-A552078343F5}|PROG\\PROG.csproj|solutionrelative:prog\\data\\migrations\\20240821192019_wrplese.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6468CBA4-21E4-47BB-80FC-A552078343F5}|PROG\\PROG.csproj|c:\\users\\michael singh\\desktop\\prog\\prog\\data\\migrations\\20240821191903_restart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6468CBA4-21E4-47BB-80FC-A552078343F5}|PROG\\PROG.csproj|solutionrelative:prog\\data\\migrations\\20240821191903_restart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\Michael Singh\\Desktop\\PROG\\PROG\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "PROG\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\Michael Singh\\Desktop\\PROG\\PROG\\Views\\Home\\Privacy.cshtml*",
+              "RelativeToolTip": "PROG\\Views\\Home\\Privacy.cshtml*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-06T13:32:36.951Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AdminIndex.cshtml",
+              "DocumentMoniker": "C:\\Users\\Michael Singh\\Desktop\\PROG\\PROG\\Views\\Information\\AdminIndex.cshtml",
+              "RelativeDocumentMoniker": "PROG\\Views\\Information\\AdminIndex.cshtml",
+              "ToolTip": "C:\\Users\\Michael Singh\\Desktop\\PROG\\PROG\\Views\\Information\\AdminIndex.cshtml",
+              "RelativeToolTip": "PROG\\Views\\Information\\AdminIndex.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-23T19:06:29.538Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SearchByLecturerID.cshtml",
+              "DocumentMoniker": "C:\\Users\\Michael Singh\\Desktop\\PROG\\PROG\\Views\\Information\\SearchByLecturerID.cshtml",
+              "RelativeDocumentMoniker": "PROG\\Views\\Information\\SearchByLecturerID.cshtml",
+              "ToolTip": "C:\\Users\\Michael Singh\\Desktop\\PROG\\PROG\\Views\\Information\\SearchByLecturerID.cshtml",
+              "RelativeToolTip": "PROG\\Views\\Information\\SearchByLecturerID.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-23T18:51:17.83Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "InformationController.cs",
+              "DocumentMoniker": "C:\\Users\\Michael Singh\\Desktop\\PROG\\PROG\\Controllers\\InformationController.cs",
+              "RelativeDocumentMoniker": "PROG\\Controllers\\InformationController.cs",
+              "ToolTip": "C:\\Users\\Michael Singh\\Desktop\\PROG\\PROG\\Controllers\\InformationController.cs",
+              "RelativeToolTip": "PROG\\Controllers\\InformationController.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAuwBkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-19T11:10:10.583Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "20240821191903_restart.cs",
+              "DocumentMoniker": "C:\\Users\\Michael Singh\\Desktop\\PROG\\PROG\\Data\\Migrations\\20240821191903_restart.cs",
+              "RelativeDocumentMoniker": "PROG\\Data\\Migrations\\20240821191903_restart.cs",
+              "ToolTip": "C:\\Users\\Michael Singh\\Desktop\\PROG\\PROG\\Data\\Migrations\\20240821191903_restart.cs",
+              "RelativeToolTip": "PROG\\Data\\Migrations\\20240821191903_restart.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T19:19:03.623Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Michael Singh\\Desktop\\PROG\\PROG\\Views\\Information\\Index.cshtml",
+              "RelativeDocumentMoniker": "PROG\\Views\\Information\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Michael Singh\\Desktop\\PROG\\PROG\\Views\\Information\\Index.cshtml",
+              "RelativeToolTip": "PROG\\Views\\Information\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-19T11:42:14.46Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "20240821192019_wrplese.cs",
+              "DocumentMoniker": "C:\\Users\\Michael Singh\\Desktop\\PROG\\PROG\\Data\\Migrations\\20240821192019_wrplese.cs",
+              "RelativeDocumentMoniker": "PROG\\Data\\Migrations\\20240821192019_wrplese.cs",
+              "ToolTip": "C:\\Users\\Michael Singh\\Desktop\\PROG\\PROG\\Data\\Migrations\\20240821192019_wrplese.cs",
+              "RelativeToolTip": "PROG\\Data\\Migrations\\20240821192019_wrplese.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T19:20:19.83Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "20240819143305_please.cs",
+              "DocumentMoniker": "C:\\Users\\Michael Singh\\Desktop\\PROG\\PROG\\Data\\Migrations\\20240819143305_please.cs",
+              "RelativeDocumentMoniker": "PROG\\Data\\Migrations\\20240819143305_please.cs",
+              "ToolTip": "C:\\Users\\Michael Singh\\Desktop\\PROG\\PROG\\Data\\Migrations\\20240819143305_please.cs",
+              "RelativeToolTip": "PROG\\Data\\Migrations\\20240819143305_please.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-19T14:33:05.212Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "20240819111432_Initial.cs",
+              "DocumentMoniker": "C:\\Users\\Michael Singh\\Desktop\\PROG\\PROG\\Data\\Migrations\\20240819111432_Initial.cs",
+              "RelativeDocumentMoniker": "PROG\\Data\\Migrations\\20240819111432_Initial.cs",
+              "ToolTip": "C:\\Users\\Michael Singh\\Desktop\\PROG\\PROG\\Data\\Migrations\\20240819111432_Initial.cs",
+              "RelativeToolTip": "PROG\\Data\\Migrations\\20240819111432_Initial.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-19T11:14:33.098Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Information.cs",
+              "DocumentMoniker": "C:\\Users\\Michael Singh\\Desktop\\PROG\\PROG\\Models\\Information.cs",
+              "RelativeDocumentMoniker": "PROG\\Models\\Information.cs",
+              "ToolTip": "C:\\Users\\Michael Singh\\Desktop\\PROG\\PROG\\Models\\Information.cs",
+              "RelativeToolTip": "PROG\\Models\\Information.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-19T11:09:28.636Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Michael Singh\\Desktop\\PROG\\PROG\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "PROG\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Michael Singh\\Desktop\\PROG\\PROG\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "PROG\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAABpAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-21T19:21:45.335Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Michael Singh\\Desktop\\PROG\\PROG\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "PROG\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\Michael Singh\\Desktop\\PROG\\PROG\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "PROG\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-19T11:12:31.625Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

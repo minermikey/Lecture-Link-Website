@@ -1,0 +1,135 @@
+﻿@model PROG.Models.Information
+
+@{
+    ViewData["Title"] = "Create Information";
+}
+
+<h2>Create Information</h2>
+
+<form asp-action="Create" enctype="multipart/form-data" id="claimsForm">
+    <div class="form-group">
+        <label asp-for="LecturerID" class="control-label"></label>
+        <input asp-for="LecturerID" class="form-control" required />
+        <span asp-validation-for="LecturerID" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Firstname" class="control-label"></label>
+        <input asp-for="Firstname" class="form-control" required />
+        <span asp-validation-for="Firstname" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Lastname" class="control-label"></label>
+        <input asp-for="Lastname" class="form-control" required />
+        <span asp-validation-for="Lastname" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="HouresWorked" class="control-label"></label>
+        <input asp-for="HouresWorked" class="form-control" id="hoursWorked" required />
+        <span asp-validation-for="HouresWorked" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Claimsperiodstart" class="control-label"></label>
+        <input asp-for="Claimsperiodstart" class="form-control" type="date" required />
+        <span asp-validation-for="Claimsperiodstart" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Claimsperiodend" class="control-label"></label>
+        <input asp-for="Claimsperiodend" class="form-control" type="date" required />
+        <span asp-validation-for="Claimsperiodend" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="RatePerHour" class="control-label"></label>
+        <input asp-for="RatePerHour" class="form-control" id="ratePerHour" required />
+        <span asp-validation-for="RatePerHour" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="DiscriptionOfWork" class="control-label"></label>
+        <textarea asp-for="DiscriptionOfWork" class="form-control" required></textarea>
+        <span asp-validation-for="DiscriptionOfWork" class="text-danger"></span>
+    </div>
+
+    <!-- File upload field -->
+    <div class="form-group">
+        <label for="fileUpload">Upload File</label>
+        <input type="file" name="fileUpload" id="fileUpload" class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <input type="submit" value="Create" class="btn btn-primary" />
+    </div>
+
+    <script>
+        $(document).ready(function () {
+            $('#claimsForm').on('submit', function (event) {
+                event.preventDefault();
+
+                // Clear previous toastr messages and validation errors
+                toastr.clear();
+                $('.text-danger').text('');
+
+                // Validate required fields
+                var isValid = true;
+                var errorMessages = [];
+
+                $('#claimsForm input[required], #claimsForm textarea[required]').each(function () {
+                    if ($(this).val() === '') {
+                        isValid = false;
+                        var fieldName = $(this).siblings('label').text(); // Get the label text
+                        errorMessages.push(fieldName + ' is required.');
+                        $(this).next('.text-danger').text(fieldName + ' is required.');
+                    }
+                });
+
+                if (!isValid) {
+                    // Show error messages for each missing field
+                    errorMessages.forEach(function (message) {
+                        toastr.error(message, 'Form Error', {
+                            "positionClass": "toast-top-right",
+                            "timeOut": "5000",
+                            "closeButton": true,
+                            "progressBar": true
+                        });
+                    });
+                    return; // Prevent further execution
+                }
+
+                // If valid, calculate total amount
+                var hoursWorked = parseFloat($('#hoursWorked').val()) || 0;
+                var ratePerHour = parseFloat($('#ratePerHour').val()) || 0;
+                var totalAmount = hoursWorked * ratePerHour;
+
+                // Show amount calculated toastr
+                toastr.success('Total amount due: ' + totalAmount.toFixed(2), 'Amount Calculated', {
+                    "positionClass": "toast-top-right",
+                    "timeOut": "5000",
+                    "closeButton": true,
+                    "progressBar": true
+                });
+
+                // Show submission success toastr after a delay
+                setTimeout(function () {
+                    toastr.success('Claim has been submitted successfully!', 'Submission Successful', {
+                        "positionClass": "toast-top-right",
+                        "timeOut": "5000",
+                        "closeButton": true,
+                        "progressBar": true
+                    });
+
+                    // Delay form submission to allow toastr to show
+                    setTimeout(function () {
+                        $('#claimsForm')[0].submit();
+                    }, 1000);
+
+                    // Clear the form fields after submission
+                    $('#claimsForm')[0].reset();
+                }, 1000);
+            });
+        });
+    </script>
+</form>
+
+@section scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

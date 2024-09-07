@@ -1,0 +1,64 @@
+﻿@{
+    ViewData["Title"] = "Search Information by Lecturer ID";
+}
+
+<h2>Search Information by Lecturer ID</h2>
+
+<form asp-action="SearchByLecturerID" method="post">
+    <div class="form-group">
+        <label for="lecturerID">Lecturer ID</label>
+        <input type="text" class="form-control" id="lecturerID" name="lecturerID" placeholder="Enter Lecturer ID" required />
+    </div>
+    <button type="submit" class="btn btn-primary">Search</button>
+</form>
+
+ 
+    <div class="alert alert-danger mt-3">
+        @foreach (var error in ViewData.ModelState.Values.SelectMany(v => v.Errors))
+        {
+            <p>@error.ErrorMessage</p>
+        }
+    </div>
+ @* 
+
+@if (Model != null && Model.Any())
+{
+    <h3>Results</h3>
+    <table class="table table-bordered table-striped">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Lecturer ID</th>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Hours Worked</th>
+                <th>Claims Period Start</th>
+                <th>Claims Period End</th>
+                <th>Rate Per Hour</th>
+                <th>Total Amount</th>
+                <th>Description Of Work</th>
+                <th>Payment Status</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.ID</td>
+                    <td>@item.LecturerID</td>
+                    <td>@item.Firstname</td>
+                    <td>@item.Lastname</td>
+                    <td>@item.HouresWorked</td>
+                    <td>@item.Claimsperiodstart.ToString("yyyy-MM-dd")</td>
+                    <td>@item.Claimsperiodend.ToString("yyyy-MM-dd")</td>
+                    <td>@item.RatePerHour</td>
+                    <td>@item.TotalAmount</td>
+                    <td>@item.DiscriptionOfWork</td>
+                    <td>@item.PaymentStatus</td>
+                    
+                </tr>
+            }
+        </tbody>
+    </table> *@
+@* } *@
+
