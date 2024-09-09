@@ -7,6 +7,7 @@ using Microsoft.EntityFrameworkCore;
 using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Identity;
 
 namespace PROG.Controllers
 {
@@ -14,6 +15,8 @@ namespace PROG.Controllers
     {
         private readonly ApplicationDbContext _context;
         private readonly IWebHostEnvironment _env;
+        private readonly UserManager<IdentityUser> _userManager;
+
 
         public InformationController(ApplicationDbContext context, IWebHostEnvironment env)
         {

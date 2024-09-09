@@ -66,6 +66,16 @@ namespace PROG.Areas.Identity.Pages.Account
             [Compare("Password", ErrorMessage = "The password and confirmation password do not match.")]
             public string ConfirmPassword { get; set; }
 
+            // New property for first name
+            [Required]
+            [Display(Name = "First Name")]
+            public string FirstName { get; set; }
+
+            // New property for last name
+            [Required]
+            [Display(Name = "Last Name")]
+            public string LastName { get; set; }
+
             // New property for role selection
             [Required]
             [Display(Name = "Role")]
@@ -82,6 +92,7 @@ namespace PROG.Areas.Identity.Pages.Account
         {
             returnUrl ??= Url.Content("~/");
             ExternalLogins = (await _signInManager.GetExternalAuthenticationSchemesAsync()).ToList();
+
             if (ModelState.IsValid)
             {
                 var user = CreateUser();
@@ -125,7 +136,6 @@ namespace PROG.Areas.Identity.Pages.Account
                 }
             }
 
-            // If we got this far, something failed, redisplay form
             return Page();
         }
 
@@ -138,8 +148,7 @@ namespace PROG.Areas.Identity.Pages.Account
             catch
             {
                 throw new InvalidOperationException($"Can't create an instance of '{nameof(IdentityUser)}'. " +
-                    $"Ensure that '{nameof(IdentityUser)}' is not an abstract class and has a parameterless constructor, or alternatively " +
-                    $"override the register page in /Areas/Identity/Pages/Account/Register.cshtml");
+                    $"Ensure that '{nameof(IdentityUser)}' is not an abstract class and has a parameterless constructor.");
             }
         }
 
